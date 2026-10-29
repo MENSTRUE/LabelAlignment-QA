@@ -1,18 +1,24 @@
-# Documentation Index
+# Research & Engineering Documentation Index
 
-[Root README](../README.md) · [Agent governance](../AGENTS.md)
+[Root README](../README.md) · [Root AGENTS](../AGENTS.md)
 
-This folder holds research and integration explanations that complement, but never contradict, the root README and saved artifact reports. Use `reports/` for actual numeric experiment evidence and `notebooks/` for the executable research record.
+This directory separates shared evidence documentation from localized navigation and explanations. The authoritative numeric results remain in `reports/`, and executable research stays in `notebooks/`.
 
-| Document | Purpose |
-|---|---|
-| [`DATASETS.md`](DATASETS.md) | Four inventoried sources, actual training source, labels, permissions, audit, split and leakage |
-| [`METHODOLOGY.md`](METHODOLOGY.md) | Object detection design, training, evaluation, export and local inference architecture |
-| [`LIMITATIONS.md`](LIMITATIONS.md) | What is verified, unknown, unsupported or only planned |
-| [`INTEGRATION_GUIDE.md`](INTEGRATION_GUIDE.md) | Existing local backend/frontend setup guide |
-| `id/` | Reserved for reviewed Indonesian expansions |
-| `en/` | Reserved for reviewed English expansions |
+## Localized documentation — complete
 
-## Editing protocol
+| Topic | Bahasa Indonesia | English |
+|---|---|---|
+| Overview, Before–Now–Next, results and asset gallery | [docs/id/README.md](id/README.md) | [docs/en/README.md](en/README.md) |
+| Data sources, labels, split and leakage | [docs/id/DATASETS.md](id/DATASETS.md) | [docs/en/DATASETS.md](en/DATASETS.md) |
+| Experiment, metrics and inference contract | [docs/id/METHODOLOGY.md](id/METHODOLOGY.md) | [docs/en/METHODOLOGY.md](en/METHODOLOGY.md) |
+| Claim boundaries and release readiness | [docs/id/LIMITATIONS.md](id/LIMITATIONS.md) | [docs/en/LIMITATIONS.md](en/LIMITATIONS.md) |
+| PowerShell setup, tests and troubleshooting | [docs/id/INTEGRATION_GUIDE.md](id/INTEGRATION_GUIDE.md) | [docs/en/INTEGRATION_GUIDE.md](en/INTEGRATION_GUIDE.md) |
 
-All claims must link to saved reports or verified source code. Do not claim ONNX parity from export success; do not claim zero leakage while 26 candidates remain unreviewed. Keep separate **research notebook metrics**, **API smoke tests**, **direct PyTorch GPU tests**, and **external image results**. Put dated experiment revisions below the original experiment rather than overwriting it. Preserve asset links as relative repository URLs.
+## Shared original research documentation
+
+- [DATASETS.md](DATASETS.md): dataset provenance and audit.
+- [METHODOLOGY.md](METHODOLOGY.md): experimental method and detector contract.
+- [LIMITATIONS.md](LIMITATIONS.md): research limits and permissible claims.
+- [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md): current application integration instructions.
+
+Translated guides must preserve the same source facts, class spellings and metrics as shared reports. Do not promote test smoke checks to scientific performance claims. Assets in the translated pages use paths relative to `docs/id/` and `docs/en/`.
