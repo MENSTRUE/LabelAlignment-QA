@@ -1,0 +1,10 @@
+split,class_name,object_count,image_count
+train,class_imperfect label,39,136
+train,class_no label,17,136
+train,class_perfect label,80,136
+val,class_imperfect label,10,39
+val,class_no label,1,39
+val,class_perfect label,28,39
+test,class_imperfect label,13,35
+test,class_no label,8,35
+test,class_perfect label,14,35

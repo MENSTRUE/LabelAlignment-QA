@@ -1,0 +1,7 @@
+{
+  "status": "trained",
+  "duration_seconds": 90.18,
+  "checkpoint": "/kaggle/working/labelalignment_day24/models/labelalignment_primary_best.pt",
+  "ultralytics": "8.4.192",
+  "split_manifest_sha256": "ca05f9866b5729355b93c81e8765d4e8461b4ed13aee59ad61c3be56af153c6d"
+}

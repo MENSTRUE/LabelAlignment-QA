@@ -1,0 +1,6 @@
+{
+  "algorithm": "dHash 8x8",
+  "threshold": 5,
+  "cross_split_candidate_count": 26,
+  "interpretation": "Candidates require manual review. No guarantee of no near-duplicate leakage."
+}

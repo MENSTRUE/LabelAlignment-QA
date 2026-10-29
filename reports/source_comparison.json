@@ -1,0 +1,50 @@
+[
+  {
+    "source": "big_cola",
+    "found": true,
+    "images": 377,
+    "yaml_candidates": 0,
+    "ontologies": [],
+    "safe_to_merge": "NO — independent task/label audit required"
+  },
+  {
+    "source": "label_v2",
+    "found": true,
+    "images": 210,
+    "yaml_candidates": 1,
+    "ontologies": [
+      [
+        "class_imperfect label",
+        "class_no label",
+        "class_perfect label"
+      ]
+    ],
+    "safe_to_merge": "NO — independent task/label audit required"
+  },
+  {
+    "source": "label_other",
+    "found": true,
+    "images": 396,
+    "yaml_candidates": 0,
+    "ontologies": [],
+    "safe_to_merge": "NO — independent task/label audit required"
+  },
+  {
+    "source": "water_defects",
+    "found": true,
+    "images": 1500,
+    "yaml_candidates": 1,
+    "ontologies": [
+      [
+        "bottle_ron88",
+        "bottle_other_brand",
+        "defect_low_fill",
+        "defect_no_cap",
+        "defect_loose_cap",
+        "defect_debris",
+        "defect_label_damage"
+      ]
+    ],
+    "safe_to_merge": "NO — independent task/label audit required"
+  }
+]

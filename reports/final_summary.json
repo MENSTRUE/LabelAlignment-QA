@@ -1,0 +1,39 @@
+{
+  "project": "LabelAlignment QA",
+  "day": 24,
+  "task": "bottle-label detection baseline + conditional geometry research",
+  "primary_source": "label_v2",
+  "primary_dataset_path": "/kaggle/input/datasets/loliwibu/bottle-label-detection-v2",
+  "classes": [
+    "class_imperfect label",
+    "class_no label",
+    "class_perfect label"
+  ],
+  "split_policy": "group_holdout_from_original_train",
+  "heldout_metrics": {
+    "source": "label_v2",
+    "test_images": 35,
+    "precision": 0.782705221914517,
+    "recall": 0.9257981606821096,
+    "map50": 0.987,
+    "map50_95": 0.7395106393606394,
+    "per_class_ap50_95": {
+      "class_imperfect label": 0.7930104895104896,
+      "class_no label": 0.7464500000000001,
+      "class_perfect label": 0.6790714285714285
+    },
+    "split_policy": "group_holdout_from_original_train",
+    "warning": "Detection metrics only; no label-angle/offset or certified pass/fail."
+  },
+  "checkpoint": "/kaggle/working/labelalignment_day24/models/labelalignment_primary_best.pt",
+  "geometry_measurement_status": "not_computed_requires_verified_corners_and_reference",
+  "automatic_pass_fail": "not_provided",
+  "limitations": [
+    "Axis-aligned boxes cannot directly estimate printed label angle.",
+    "Angle/offset require independent reference geometry.",
+    "No calibrated manufacturing tolerance for pass/fail.",
+    "Small dataset and near duplicates may limit generalization.",
+    "Other dataset labels have not been merged.",
+    "Verify dataset licensing/attribution before redistribution."
+  ]
+}

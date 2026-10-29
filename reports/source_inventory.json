@@ -1,0 +1,87 @@
+{
+  "inventory": [
+    {
+      "source": "big_cola",
+      "found": true,
+      "root": "/kaggle/input/datasets/youssefeldemerdashh/big-cola-bottles-dataset-for-yolo-quality-control",
+      "images": 377,
+      "yaml_files": [],
+      "top_level": [
+        "obj.data",
+        "obj.names",
+        "obj_train_data",
+        "train.txt"
+      ]
+    },
+    {
+      "source": "label_v2",
+      "found": true,
+      "root": "/kaggle/input/datasets/loliwibu/bottle-label-detection-v2",
+      "images": 210,
+      "yaml_files": [
+        "data.yaml"
+      ],
+      "top_level": [
+        "README.dataset.txt",
+        "README.roboflow.txt",
+        "data.yaml",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "source": "label_other",
+      "found": true,
+      "root": "/kaggle/input/datasets/yashvisave/dataset-for-bottle-label-detection",
+      "images": 396,
+      "yaml_files": [],
+      "top_level": [
+        "dataset"
+      ]
+    },
+    {
+      "source": "water_defects",
+      "found": true,
+      "root": "/kaggle/input/datasets/jihadakbr/water-bottle-defect-level-detection-dataset",
+      "images": 1500,
+      "yaml_files": [
+        "data.yaml"
+      ],
+      "top_level": [
+        "data.yaml",
+        "images",
+        "labels"
+      ]
+    }
+  ],
+  "yamls": [
+    {
+      "source": "label_v2",
+      "config_path": "/kaggle/input/datasets/loliwibu/bottle-label-detection-v2/data.yaml",
+      "names": [
+        "class_imperfect label",
+        "class_no label",
+        "class_perfect label"
+      ],
+      "train": "../train/images",
+      "val": "../valid/images",
+      "test": "../test/images"
+    },
+    {
+      "source": "water_defects",
+      "config_path": "/kaggle/input/datasets/jihadakbr/water-bottle-defect-level-detection-dataset/data.yaml",
+      "names": [
+        "bottle_ron88",
+        "bottle_other_brand",
+        "defect_low_fill",
+        "defect_no_cap",
+        "defect_loose_cap",
+        "defect_debris",
+        "defect_label_damage"
+      ],
+      "train": "images/train",
+      "val": "images/val",
+      "test": "None"
+    }
+  ]
+}

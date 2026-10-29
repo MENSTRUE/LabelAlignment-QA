@@ -1,0 +1,14 @@
+{
+  "required": [
+    "label_corners_tl_tr_br_bl",
+    "bottle_axis_top",
+    "bottle_axis_bottom",
+    "reference_center",
+    "bottle_width_px",
+    "bottle_height_px"
+  ],
+  "angle_supported_by_aabb_yolo": false,
+  "offset_supported_without_reference": false,
+  "tolerance_thresholds": "not_specified",
+  "pass_fail": "withheld"
+}

@@ -1,0 +1,18 @@
+{
+  "research_training_complete": true,
+  "heldout_metrics_file_exists": true,
+  "per_class_distribution_recorded": true,
+  "near_duplicate_candidates": 26,
+  "near_duplicate_human_review": "pending",
+  "onnx_export_status": "ok",
+  "app_end_to_end_verified": false,
+  "geometric_angle_offset_validated": false,
+  "manufacturing_pass_fail_validated": false,
+  "ready_for_production": false,
+  "limitations": [
+    "Only 35 held-out images",
+    "Source class imbalance",
+    "Visual near-duplicates require manual assessment",
+    "No factory-level external validation"
+  ]
+}

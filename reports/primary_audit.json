@@ -1,0 +1,18 @@
+{
+  "image_counts": {
+    "train": 171,
+    "val": 39
+  },
+  "box_counts": {
+    "class_imperfect label": 62,
+    "class_perfect label": 122,
+    "class_no label": 26
+  },
+  "error_count": 0,
+  "errors": [],
+  "classes": [
+    "class_imperfect label",
+    "class_no label",
+    "class_perfect label"
+  ]
+}

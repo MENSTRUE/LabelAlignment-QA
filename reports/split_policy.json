@@ -1,0 +1,8 @@
+{
+  "policy": "group_holdout_from_original_train",
+  "train": 136,
+  "val": 39,
+  "test": 35,
+  "seed": 42,
+  "limit": "Hash and filename family checks do not rule out visual near duplicates."
+}

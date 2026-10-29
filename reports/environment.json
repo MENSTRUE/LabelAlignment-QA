@@ -1,0 +1,24 @@
+{
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "seed": 42,
+  "sources": {
+    "big_cola": "/kaggle/input/datasets/youssefeldemerdashh/big-cola-bottles-dataset-for-yolo-quality-control",
+    "label_v2": "/kaggle/input/datasets/loliwibu/bottle-label-detection-v2",
+    "label_other": "/kaggle/input/datasets/yashvisave/dataset-for-bottle-label-detection",
+    "water_defects": "/kaggle/input/datasets/jihadakbr/water-bottle-defect-level-detection-dataset"
+  },
+  "cfg": {
+    "primary_source": "label_v2",
+    "epochs": 65,
+    "patience": 15,
+    "imgsz": 640,
+    "batch": 16,
+    "workers": 2,
+    "pretrained": "yolov8n.pt",
+    "train_to_test_fraction": 0.2,
+    "minimum_test_images": 10,
+    "onnx_export": true,
+    "max_examples": 12
+  },
+  "mode": "auto"
+}
