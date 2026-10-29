@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dataset
+dataset/
+datasets/
+data/raw/
+data/processed/
+
+# Model weights and exports
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+
+# Experiment artifacts
+runs/
+wandb/
+mlruns/
+outputs/
+artifacts/
+*.zip
+*.7z
+*.rar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend
+node_modules/
+dist/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
